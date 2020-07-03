@@ -1,0 +1,218 @@
+﻿
+html, body
+{
+    /* background: url('../images/fnd_snm.png') repeat; */
+	margin: 0;
+	height: 100%;
+	width: 100%;
+    color: #71797E !important;   
+    /* background-image: linear-gradient(rgb(181, 221, 251), rgb(217, 238, 253));  */
+    background-color:#F2F2F2; 
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+
+
+/*
+.navbar .btn-group .dropdown-menu a:hover {
+color: #000 !important;
+}
+.navbar .btn-group .dropdown-menu a:active {
+color: #fff !important;
+}
+*/
+
+
+.dropdown-menu:hover 
+{
+    /* color:#3F97A0 !important; */
+}
+
+
+.dropdown:hover > .dropdown-menu {
+    /* display: block; vlk */
+    top:30px;
+    /* color:#3F97A0 !important; */
+}
+.dropdown > .dropdown-menu {
+    /* display: block; vlk */
+    top:30px;
+    /* color:#3F97A0 !important; */
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    /* display: block; vlk */
+    /* color:#3F97A0 !important;*/
+}
+.dropdown-item:hover 
+{
+    /*color:#3F97A0 !important;
+    background:transparent !important; */
+}
+.dropdown-toggle:hover 
+{
+   /*  color:#3F97A0 !important; */
+}
+/* .dropdown > .dropdown-toggle:active { */
+  /*Without this, clicking will make it sticky*/
+/*    pointer-events: none; 
+}
+*/
+
+.dropdown-menu:hover > .dropdown-submenu 
+{
+    /* display:block;  */
+    /* color:#3F97A0 !important;*/
+}
+
+/****** Caret ****/
+
+/*
+.dropdown-toggle[aria-expanded="true"]:after {
+    transform: rotate(180deg);
+}
+.dropdown-toggle:after {
+    transition: 0.5s;
+}
+.dropdown-toggle 
+{
+    color:#98BED7 !important;
+}
+*/
+
+/*****************/
+        
+    
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: .8em; 
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 99%;
+    margin-left: .1rem; 
+   
+}
+
+        
+.navbarFondoPersonalizado
+{
+  /* background: #e3f2fd !important; */
+   background-image: linear-gradient(rgb(121, 193, 247), rgb(187,224,251)); 
+   border-bottom: 2px solid rgb(121, 193, 247);
+}
+
+.navbarItemPersonalizado 
+{
+    /* color: #71797E !important;  */
+    color: #000000 !important;
+    font-size: 0.9rem;
+    cursor:pointer;
+}
+
+
+
+.navBarBordesRedondeados  
+{
+    /*para Firefox*/
+    -moz-border-radius: 10px 10px 10px 10px !important;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 10px 10px 10px 10px !important;
+    /* para Opera */
+    border-radius: 10px 10px 10px 10px !important;
+}
+
+.redondearFoto {
+    width: 48px;
+    height: 48px; 
+    /* margin: 0 auto 10px; */
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/* .redondearImagen 
+{
+    border-radius:50%;
+    border:1px black solid;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.8);
+}
+*/
+
+/*************************************************************************************/
+
+/*
+.diagnostico_card 
+{
+    font-family: Helvetica, sans-serif, Verdana, Arial; 
+}
+.diagnostico_card_titulo
+{   
+    font-weight:bold;
+    font-size: 1rem;
+    color: #000000;
+}
+.diagnostico_card_subtitulo
+{   
+    font-size:1rem;
+    opacity: 0.5;
+ l   
+
+}
+.diagnostico_card_detalle
+{   
+    font-size: 0.8rem;
+    opacity: 0.5;
+    margin-left: 0.2rem;
+}
+.card-header 
+{
+    border-bottom-color: #96CFFA !important;
+    border-bottom-style: ridge;
+}
+*/
+
+.tp-gradiente-colores
+{
+    position:relative;
+    width:100%; 
+    background-color:#3fc1cb;
+    background-image:-webkit-linear-gradient(left,#3fc1cb 0,#3bb9c2 2%,#009a97 16%,#97a96b 24%,#ebbb1d 32%,#f28cb9 48%,#e30f72 66%,#91268f 82%,#024da1 100%);
+    background-image:linear-gradient(to right,#3fc1cb 0,#3bb9c2 2%,#009a97 16%,#97a96b 24%,#ebbb1d 32%,#f28cb9 48%,#e30f72 66%,#91268f 82%,#024da1 100%);
+    min-height:5px;
+    margin-left:0;
+    margin-right:0;
+    padding:0
+}
+
+.menuTema_1
+{
+    background: #00B7D7 !important;
+    color:#FFFFFF !important;
+    font-size:0.9rem; 
+}
+
+.linksMenu
+{
+    color:#FFFFFF !important;
+    font-weight: bold;
+    font-size:0.9rem; 
+}
+
+.navbarItemPersonalizado:hover
+{
+    background:#00B7D7  !important;
+    color:#FFFFFF!important;
+    font-size:0.9rem;
+}
+
+.dropdown-toggle 
+{
+    /* color:#FFFFFF !important; */
+}

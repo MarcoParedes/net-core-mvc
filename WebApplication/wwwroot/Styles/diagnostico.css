@@ -1,0 +1,91 @@
+﻿
+html, body
+{
+    /* background: url('../images/fnd_snm.png') repeat; */
+	margin: 0;
+	height: 100%;
+	width: 100%;
+    color: #71797E !important;   
+    /* background-image: linear-gradient(rgb(181, 221, 251), rgb(217, 238, 253));  */
+    background-color:#F2F2F2; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.diagnostico_card 
+{
+    font-family: Helvetica, sans-serif, Verdana, Arial; 
+    
+}
+.diagnostico_card_titulo
+{   
+    font-weight:bold !important;
+    font-size: 1.3rem !important;
+    color: #000000 !important;
+}
+.diagnostico_card_subtitulo
+{   
+    font-size:1rem !important;
+    /*opacity: 0.7 !important; */
+}
+.diagnostico_card_detalle
+{   
+    font-size:1rem !important;
+   /* opacity: 0.7 !important; */
+}
+.diagnostico_card_iconos 
+{
+    font-size:1.2rem !important;
+    color:#0F9497 !important;
+}
+.diagnostico_card_botones
+{   
+    font-size:1rem !important;
+    color: #FFFFFF !important;
+    cursor: auto !important;
+}
+.diagnostico_icono_verde 
+{
+    color: #28A745 !important;
+}
+.diagnostico_icono_amarillo
+{
+    color: #FFC107 !important;
+}
+.diagnostico_icono_blanco
+{
+    color: #FFFFFF !important;
+}
+.card-header 
+{
+    border-bottom-color: #96CFFA !important;
+    border-bottom-style: ridge;
+}
+.card-redondeado 
+{
+    border: 1px solid rgba(80, 80, 80, 1);
+    border-radius: 50%;    
+}
+.card-bordesRedondeados  
+{
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: #8C8C8C; */
+    
+    /**** Redondeado ****/
+    
+    /*para Firefox*/
+    -moz-border-radius: 15px 15px 15px 15px !important;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px !important;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px !important;
+    
+    /********************/
+}
+.card-color-small 
+{
+    color:#00B7D7 !important;
+}

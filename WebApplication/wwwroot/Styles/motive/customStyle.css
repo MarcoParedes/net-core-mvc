@@ -1,0 +1,39 @@
+.breadcrumbL{
+    width: 5%;
+}
+#breadcrumbR{
+    width: 92%;
+}
+#workflow-area .content{
+    background: #FFF;
+    color: #333;
+    text-align: left;
+}
+#workflow-area p.channelFlowInfo{
+    text-align: center;
+    max-width: none;
+}
+#workflow-area .header{
+    background: #FFF;
+    color: #333;
+    padding: 15px;
+    text-align: left;
+}
+#workflow-area p.channelFlowInfo{
+    text-align: center;
+    font-size: 1.875em;
+    font-weight: 500;
+    color: #124191;
+    max-width: none;
+}
+#buttonOptions{
+    display: inline-block;
+    float: right;
+}
+#Continue{
+    margin-left: 5px;
+}
+.buttons{
+float: left;
+padding-left: 10px;
+}

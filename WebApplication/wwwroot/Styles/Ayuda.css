@@ -1,0 +1,23 @@
+div.blockMsg
+{
+	width: 75%;
+	top: 15%;
+	left: 15%;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: 1px solid #ddd;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+	opacity: .70;
+	color: #003399;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+    
+.elBoton 
+{
+	cursor:hand;
+}

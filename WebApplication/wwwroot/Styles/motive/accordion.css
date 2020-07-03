@@ -1,0 +1,46 @@
+/* Accordion */ 
+.panel-group .panel + .panel {
+    margin-top: 0px;
+}
+.panel-group .panel {
+    border-radius: 0;
+    margin-bottom: 0;
+    background: #FFF;
+}
+.panel-default {
+    border: none;
+}
+.panel .panel-heading {
+    border-bottom: 1px solid #CCC;
+    background: #EAEEF3;
+    border-radius: 0;
+}
+.panel .panel-heading[aria-expanded="true"] {
+    background: #3AB8EF;
+    color: #FFF;
+}
+.panel .panel-heading:before,
+.panel .panel-heading[aria-expanded="true"]:before {
+content: "\f0da";
+    font-family: FontAwesome;
+    display: inline-block;
+    font-size: 1.25em;
+    line-height: 1em;
+    color: #337ab7;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: left;
+    margin-right: 6px;
+}
+.panel .panel-heading[aria-expanded="true"]:before{
+    content: "\f0d7";
+    color: #FFF;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border: none;
+}
+.panel-title {
+    font-size: 1.125em;
+}

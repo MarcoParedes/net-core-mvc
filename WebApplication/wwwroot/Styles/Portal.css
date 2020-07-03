@@ -1,0 +1,711 @@
+﻿
+	html, body
+	{
+		/* background: -url('../images/fnd_snm.png') repeat; */
+		margin: 0;
+		height: 100%;
+		width: 100%;
+        color: #71797E !important; 
+        background-color:#F2F2F2;  
+        font-family: Verdana, Arial, Helvetica, sans-serif; 
+        
+        font-size: 12px;
+        
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        font-smoothing: antialiased;
+        font-weight: 400;
+        
+        
+	}
+	
+	
+body input[type=text] {
+	border: 1px solid #3baae3;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	/*margin-top:5px;*/
+	text-decoration: none;
+	background-color: #FFFFFF;
+    width: 310px;
+}
+
+
+
+body select {
+	border: 1px solid #3baae3;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+	/*margin-top: 10px;*/
+	height: 20px;
+	background-color: #FFFFFF;
+}
+
+       
+
+/* Layout
+----------------------------------*/
+.middlePopUp {
+	width: 98%;
+	height:100%;
+	margin: auto;
+	display:table;
+}
+
+.top {
+	width: 98%;
+	height: 20px;
+	display: table;
+	margin: auto;
+	/*border:1px solid red;*/
+}
+
+.middle {
+	width: 98%;
+	min-height:80%;
+	/*height:100%;*/
+	margin: auto;
+	display:table;
+	padding: 0 0 0px;
+}
+
+.bottom {
+	
+	width: 100%;
+	height: 10px;
+	display: table;
+	vertical-align:bottom;
+	position: relative;
+
+}
+.bottom2
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background-image: url('../images/ui-bg_highlight-soft_100_deedf7_1x100.png');
+}
+
+.tablaLogin
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 2px;
+	width: 100%;
+}
+
+
+
+.logText
+{
+	float: right;
+	width: 150px;
+	margin-right: 7px;
+	color: #3baae3;
+	font-weight: bold;
+	font-size: 12px;
+	display: inline-table;
+	text-align: right;
+}
+
+.textinput
+{
+	border: 1px solid #3baae3;
+	height: 16px;
+	width: 245px;
+	float: left !important;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.textBienvenido {
+	width: 82px;
+	color: #3baae3;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+	height: 16px;
+}
+
+.logoTec {
+	width: 110px;
+	padding-top: 35px;
+	margin-right: 40px;
+	float: right;
+	text-align: center;
+}
+
+.btn_ingresar 
+{
+	border-style: none !important;
+	color: #3baae3 !important;
+	font-size: 14px !important;
+	width: 100px !important;
+	font-weight: bold !important;
+	text-decoration: none !important;
+	text-align: center !important;
+	background-color: #FFFFFF !important;
+	box-shadow: 3px 3px 5px #7595B5 !important;
+	behavior: url(htc/PIE.htc);
+	
+}
+
+.btn_ingresar:hover
+{
+	font-size: 14px;
+	width: 100px !important;
+	color: #FFFFFF !important;
+	font-weight: bold !important;
+	text-decoration: none;
+	text-align: center !important;
+	background-color: #3DABE3 !important;
+	box-shadow: 3px 3px 5px #7595B5 !important;
+	behavior: url(htc/PIE.htc);
+}
+
+.imgSupInf
+{
+	box-shadow: 3px 3px 5px #7595B5;
+	behavior: url(htc/PIE.htc);	
+}
+
+.imgLateral
+{
+	 box-shadow: 3px 3px 5px #7595B5;
+	behavior: url(htc/PIE.htc);
+	 
+	
+}
+
+.radiusTopRight
+{
+	border-color: #3baae3;
+	border-width: 1px;
+	border-top-right-radius: 40px;
+	behavior: url(htc/PIE.htc);
+}
+
+.radiusTopLeft
+{
+	border-color: #3baae3;
+	border-width: 1px;
+	border-top-left-radius: 40px;
+		behavior: url(htc/PIE.htc);
+
+}
+
+
+.radiusBottonRight
+{
+	border-color: #3baae3;
+	border-width: 1px;
+	border-bottom-right-radius: 40px;
+	behavior: url(htc/PIE.htc);
+}
+.radiusBottonLeft
+{
+	border-color: #3baae3;
+	border-width: 1px;
+	border-bottom-left-radius: 40px;	
+	behavior: url(htc/PIE.htc);
+}
+
+.logo:hover 
+{
+	
+	-webkit-transform: rotate(19deg); 
+	transform: rotate(19deg);
+	behavior: url(htc/PIE.htc);
+
+}
+.logo  
+{
+	-webkit-transition: all 2.9s ease; 
+	transition: all 2.9s ease;
+	behavior: url(htc/PIE.htc);
+	
+}
+
+
+.footer 
+{
+	
+	width: 100%;
+	display: table;
+	height: 10px;
+	border-top: 2px solid #3baae3;
+	vertical-align: bottom;
+}
+
+.textfooter 
+{
+	
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+	/* color: #3baae3;*/
+	text-align: left;
+	padding-left: 5px;
+	vertical-align: bottom;
+
+}
+
+
+
+.wait
+{
+	font-weight: bold;
+	font-family: Verdana;
+	color: #3baae3;
+	width: 100%;
+	height: 850px;
+	text-align: center;
+	background-color: #000000;
+	 opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+
+hr {
+	background-color: #3baae3;
+	color: #3baae3;
+	height:1px;
+	margin:5px auto;
+}
+
+
+
+/**************************************WebDio Consulta*******************************/
+
+        .titulos
+        {
+            font-family: Verdana,Helvetica;
+            font-size: 12pt;
+            color: #5065BC;
+            font-weight: BOLD;
+        }
+        .texto
+        {
+            font-family: Verdana,Helvetica;
+            font-size: 9pt;
+            color: #5065BC;
+            font-weight: BOLD;
+        }
+        
+         .textoVerde
+        {
+            font-family: Verdana,Helvetica;
+            font-size: 9pt;
+            color:#008000;
+            font-weight: BOLD;
+        }
+        .titulos1
+        {
+            font-family: Verdana,Helvetica;
+            font-size: 12pt;
+            color: red;
+            font-weight: BOLD;
+        }
+        .texto1
+        {
+            font-family: Verdana,Helvetica;
+            font-size: 9pt;
+            color: red;
+            font-weight: BOLD;
+        }
+        .texto2
+        {
+            font-family: Verdana,Helvetica;
+            font-size: 9pt;
+            color: #5065BC;
+        }
+        .restriccionTexto
+        {
+            font-family: Verdana;
+            font-size: 9pt;
+            color: red;
+            font-weight: BOLD;
+        }
+        .localizacion
+        {
+            font-family: Verdana;
+            font-size: 9pt;
+            color: #5065BC;
+        }
+        .restriccionTextoAzul
+        {
+            font-family: Verdana;
+            font-size: 12pt;
+            color: #5065BC;
+            font-weight: BOLD;
+        }
+        .restriccionTextoRojo
+        {
+            font-family: Verdana;
+            font-size: 12pt;
+            color: red;
+            font-weight: BOLD;
+        }
+        .detalleError
+        {
+            font-family: Verdana;
+            font-size: 9pt;
+            color: red;
+            font-weight: BOLD;
+        }
+        #myIframe
+        {
+			height: 400px;
+            width: 500px;
+
+        }
+        .titulos3
+        {
+            font-family: Verdana,Helvetica;
+            font-size: 10pt;
+            color: #5065BC;
+            font-weight: BOLD;
+        }
+        .texto3
+        {
+            font-family: Verdana,Helvetica;
+            font-size: 9pt;
+            color: #0000FF;
+            font-weight: BOLD;
+        }
+       
+/***********************  Departamento de analisis *******************************/
+
+.micontenedor{
+	margin:0 auto;
+	width:100%;
+}
+.frameestilo{
+}
+.letra{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bolder;
+	color:#FFFFFF;
+}
+
+/***********************  frame ************************************************/
+
+   
+	.miframecontenedor
+	{
+		width:100%;
+		height:100%;
+	}
+	
+	
+	.miframeizquierdo
+	{
+		width:20%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		border-right: 2px solid #3baae3;
+		height: 99%;
+	}	
+
+	
+	.miframederecho
+	{
+		width:80%;
+		float:right;
+		z-index: 9999;
+		right: 10;
+		top: 0;
+		height: 99%;
+		overflow: auto;
+	}
+
+	.miframederechofraude
+	{
+		width:80%;
+		float:right;
+		z-index: 9999;
+		right: 10;
+		top: 0;
+		height: 99%;
+	}
+
+.dropDonw
+{
+	color: #16599C;
+	font-size: 12px;
+	font-family: Verdana;
+	
+}
+
+.TextoValorPequenio
+{
+	/* color: #16599C;
+	font-size: 12px;
+	font-family: Verdana; */
+}
+input[type="button"]
+{
+	border: 1px solid #3baae3;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #2377A1;
+	height: 18px !important; /*margin-top:5px;*/
+	width: 150px;
+	text-decoration: none;
+	background-color: #E4EEF6; /*width:100%;*/
+		
+}
+
+input[type="button"]:hover
+{
+	background-color: #3DABE3;
+	color: #D8EAF4;
+		
+}
+.botones
+{
+	border: 1px solid #3baae3;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #2377A1;
+	height: 18px !important; /*margin-top:5px;*/
+	width: 150px;
+	text-decoration: none;
+	background-color: #E4EEF6; /*width:100%;*/
+}
+
+.botones:hover
+{
+	background-color: #3DABE3;
+	color: #D8EAF4;
+		
+}
+
+.tituloPrincipal
+{
+	/*
+    padding: .4em 1em; // posición relativa
+	border: 1px solid #aed0ea;
+	background: #deedf7 url('../images/ui-bg_highlight-soft_100_deedf7_1x100.png') repeat-x 50% 50%;
+	color: #3baae3;
+	font-weight: bold;
+	text-align: left;
+	width: auto;
+	margin-bottom: -1px;
+	height: 16px; 
+    */
+    font: normal bold !important;
+    font-size: 32px;
+    text-align: center;
+    /* color: #71797E !important;
+    font-family: Verdana; */
+    color: #00B4C5;
+    /* font-family: "Helvetica Neue", Helvetica, Arial; */
+    font-family: Platform Light;
+                    
+}
+
+.Titulos
+{
+	/* font-family:  Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #3baae3; */
+}
+
+.TextoSubTitulo
+{
+	font-family:  Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #3baae3;
+}
+
+.TextoError
+{
+	font-family: Verdana;
+	font-size: 12px;
+	color: #FF0000;
+}
+/*--------------------Texto url en dafault ----------------------------*/
+.textUbicacion
+{
+	color: #3baae3;
+	font-size: 11px;
+}
+
+.helper {
+	background: #FFFFFF;
+	display: none;
+	width: 100%;
+	font-family: Verdana;
+	font-size: 11px;
+	color: #3366CC;
+}
+.btnClose {
+	font-size: 11px;
+	font-weight: bold;
+	color: #3baae3 !important ;
+
+}
+.btnClose:hover
+{
+	font-size: 11px;
+	font-weight: bold;
+	color: #0099FF !important ;
+}
+
+/*------------------------------Grilla------------------------------*/
+.GridHeaderPagina
+{
+    background:Transparent !important;
+    color: #A8ADB0 !important; 
+    border-bottom: 1px solid #71797E !important;
+    text-align: left !important; 
+    font-family: Verdana, Helvetica, sans-serif; 
+	font-size: 11px;
+    border-style: hidden; 
+    font-weight:200 !important;
+}
+
+
+	.GridRow
+{
+	border-style: hidden;
+	background-color: #F0F9FF;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	cursor: default;
+	color: #0D5E99;
+	
+}
+	.GridAltRow
+{
+	border-style: hidden;
+	background-color: #E6F4FF;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	cursor: default;
+	color: #0D5E99;
+}
+
+.GridRow:hover
+{
+	background-color: #3baae3;
+}
+
+.GridAltRow:hover
+{
+	background-color: #7CBFE0;
+}
+.a
+{
+	color: #16599C;
+	font-size: 9px;
+	font-family: Verdana;
+}
+
+
+/****** Nueva Versión ******/
+
+.detalle 
+{
+    font-family: 'Merienda', normal;
+    font-size: 15px;
+}
+.detalleChico
+{
+    font-family: 'Merienda', normal;
+    font-size: 12px;
+}
+.tituloNormal
+{
+    font-family: 'Merienda', normal;
+    font-size: 20px;
+    font-weight:bold;
+}
+.espacio 
+{
+    margin-top: 1.2rem; 
+    margin-bottom: 1.2rem;
+}
+.bordesRedondeados  
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #8C8C8C; 
+    
+    /**** Redondeado ****/
+    
+    /*para Firefox*/
+    -moz-border-radius: 15px 15px 15px 15px !important;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px !important;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px !important;
+    
+    /********************/
+}
+.colorFondo 
+{
+    background:#AAD5FF;    
+}
+
+
+/**** Menu (Navbar)  ****/
+
+/* change the background color */
+.navbar-custom {
+    background-color:#46E3FF;
+    color:#000000 !important;
+    font-family: 'Merienda', normal;
+    font-size: 15px;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color:#000000 !important;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #000000;
+}
+/************************/
+
+
+.btn-primary 
+{
+    background:#00B7D7 !important;
+}
+
+.btn-default {
+	color: #00b4c5;
+	background-color: transparent;
+	border-color: #00B7D7 ;
+	text-transform: uppercase;
+}
